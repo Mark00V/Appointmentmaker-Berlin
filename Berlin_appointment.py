@@ -3,9 +3,8 @@ import random
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
-# url for specific department 
+# url for specific department, given url for testing purpose 
 url = "https://service.berlin.de/terminvereinbarung/termin/restart/?providerList=122207&requestList=121921&source=dldb"
-url = "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=327427&anliegen[]=318998&herkunft=1"
 driver = webdriver.Firefox()    # Webdriver have to be in same folder as script
 time_refresh = 5                # Time to wait before refreshing page, DDOS block after about 15 attempts/min or about 50 attempts/hour
 
