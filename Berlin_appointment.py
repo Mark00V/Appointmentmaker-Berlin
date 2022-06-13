@@ -5,7 +5,7 @@ from selenium.webdriver.common.by import By
 
 # url for specific department, given url for testing purpose 
 url = "https://service.berlin.de/terminvereinbarung/termin/restart/?providerList=122207&requestList=121921&source=dldb"
-driver = webdriver.Firefox()    # Webdriver have to be in same folder as script
+driver = webdriver.Firefox()    # Webdriver has to be in same folder as script
 time_refresh = 5                # Time to wait before refreshing page, DDOS block after about 15 attempts/min or about 50 attempts/hour
 
 name = "Peter Rabbit"           # Enter first name and familyname for appointment
